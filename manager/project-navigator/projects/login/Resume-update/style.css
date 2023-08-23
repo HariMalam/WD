@@ -1,0 +1,92 @@
+table {
+    width: 100%;
+}
+
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+
+.main{
+    margin: 20vh;
+    padding: 5vh;
+    border: 2px solid black;
+    /* background: rgba(211, 211, 211, 0.511); */
+    margin-top: 5vh;
+    padding-top: 0px;
+    font-size: 2vh;
+}
+
+.main h1{
+    text-align: center;
+    background: gray;
+}
+.personal_details{
+    display: block;
+    float: left;
+
+}
+.personal_details table td{
+    padding-right: auto;
+    margin-right: 0px;
+    padding-left: 10vh;
+
+}
+.photo{
+    display: block;
+    width: 60%;
+    height: auto;
+    padding-left: 60%;
+
+
+}
+.sing{
+    width: 20%;
+    height: auto;
+}
+.images{
+    padding-top: 40px;
+    display: inline-block;
+}
+/* .images{
+    margin-top: 10vh;
+    margin-right: 10px;
+    margin-left: 250px;
+    display: inline-block;
+    size: 40px;
+} */
+
+.education_details{
+    display: inline-block;
+    width: 100%;
+}
+
+.skills li {
+    display: inline-block;
+}
+
+.skills ul li{
+    margin-right: 50px;
+}
+
+@media (max-width:1600px){
+    .main{
+        margin: 50px;
+        font-size: 40px;
+        
+    }
+
+}
+
+@media (max-width:900px){
+    .main{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .images{
+        display: none;
+    }
+}
+
+
+

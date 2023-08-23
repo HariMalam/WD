@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a common font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Projects list styling */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: calc(33.33% - 20px); /* Distribute into 3 columns with gaps */
+    box-sizing: border-box;
+}
+
+.project:hover {
+    background-color: #f0f0f0;
+}
+
+.project a {
+    display: block; /* Make the entire area clickable */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #3498db;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* ... (existing styles) ... */
+
+.sub-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: calc(33.33% - 20px); /* Distribute into 3 columns with gaps */
+    box-sizing: border-box;
+}
+
+.sub-project:hover {
+    background-color: #f0f0f0;
+}
+
+.sub-project a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sub-project a:hover {
+    color: #3498db;
+}
+
+/* ... (existing styles) ... */
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Adjust the layout for smaller screens */
+    .project {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
