@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <form name="Registration" id="form">
+            <table style="text-align: left;">
+                <tr>
+                    <th><label for="name">Name</label></th>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="dob">Date of Birth</label></th>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <th><label for="number">Mobile No.</label></th>
+                    <td><input type="number" id="number"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="states">States</label></th>
+                    <td><select name="states" id="states">
+                            <option value="Options">Select State</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="up">Uttar Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="mp">Madhya pradesh</option>
+                            <option value="keral">Keral</option>
+                            <option value="delhi">delhi</option>
+                            <option value="other">Other</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <th><label for="address">Address</label></th>
+                    <td><textarea name="" id="address" cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Education</th>
+                    <td>
+                        <input type="radio" id="10th" name="education">
+                        <label for="10th">10<sup>th</sup></label>
+                        <input type="radio" id="12th" name="education">
+                        <label for="12th">12<sup>th</sup></label>
+                        <input type="radio" id="graduate" name="education">
+                        <label for="graduate">Graduate</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Hobies</th>
+                    <td>
+                        <input type="checkbox" id="acting">
+                        <label for="acting">Acting</label>
+                        <input type="checkbox" id="Photography">
+                        <label for="Photography">Photography</label>
+                        <input type="checkbox" id="reading">
+                        <label for="reading">Reading</label>
+                        <input type="checkbox" id="Dancing">
+                        <label for="Dancing">Dancing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="marksheet">Marksheet</label></th>
+                    <td><input type="file" id="marksheet"></td>
+                </tr>
+                <tr>
+                    <th><label for="lc">LC</label></th>
+                    <td><input type="file" id="lc"></td>
+                </tr>
+                <tr>
+                    <th><label for="photo">Photo</label></th>
+                    <td><input type="file" id="photo"></td>
+                </tr>
+                <tr>
+                    <th><input type="submit"></th>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+
+</html>

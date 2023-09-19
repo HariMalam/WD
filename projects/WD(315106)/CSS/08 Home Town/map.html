@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.ico" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/map.css">
+
+</head>
+<body>
+    <div class="fixed">
+        <nav>
+            <div class="logoname">
+                <img src="assets/logo.jpg " alt="" class="logo">
+                <h1>District Junagadh</h1>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="photos.html">Photos</a>
+                <a href="history.html">History</a>
+                <a href="map.html" id="selected">Map</a>
+                <a href="tourism.html">Tourism</a>
+            </div>
+        </nav>
+    </div>
+    <div id="Map" class="content">
+        <input type="radio" id="option1" name="imageSelector" checked>
+        <label for="option1">Junagadh</label>
+        
+        <input type="radio" id="option2" name="imageSelector">
+        <label for="option2">Gujarat</label>
+        
+        <input type="radio" id="option3" name="imageSelector">
+        <label for="option3">India</label>
+
+        <input type="radio" id="option4" name="imageSelector">
+        <label for="option4">All</label>
+        
+        <div class="maps">
+            <img id="displayImage1" src="assets/maps/junagadh.jpeg" alt="Selected Image">     
+            <img id="displayImage2" src="assets/maps/Gujarat.png" alt="Selected Image">     
+            <img id="displayImage3" src="assets/maps/india.png" alt="Selected Image">
+        </div>
+    </div>
+</body>
+</html>

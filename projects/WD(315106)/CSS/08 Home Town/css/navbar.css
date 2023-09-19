@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital@1&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.logoname h1{
+    font-size: 50px;
+    padding-left: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.logoname{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    width: 65%;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.links a:hover{
+    background-color:  #00B043;
+    color: white;
+    border: 1px solid black;
+
+}
+.links #selected:hover{
+    background-color: white;
+}
+#selected{
+    color: #00B043;
+}
+.content{
+    padding-top: 110px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.images img{
+    height: 240px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1090px){
+    nav{
+        display: block;
+    }
+    .content{
+        padding-top: 200px;
+    }
+    .images{
+        padding: 30px;
+    }
+    .images img{
+        width: 100%;
+        height: auto;
+    }
+    .links{
+        padding-left: 120px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .logoname h1{
+        font-size: 35px;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .logoname{
+        margin: 0;
+        width: 100%;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    .links{
+        padding: 0;
+        display: flex;
+    }
+    .links a{
+        font-size: 12px;
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+    nav{
+        display: block;
+    }
+    .content{
+        padding-top: 150px;
+    }
+    .images{
+        padding: 30px;
+    }
+    .images img{
+        width: 100%;
+        height: auto;
+    }
+}

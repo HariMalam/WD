@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital@1&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.logoname h1{
+    font-size: 30px;
+    padding-left: 40px;
+    color: rgb(36, 144, 244);
+}
+.logoname{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    width: 65%;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.links a:hover{
+    background-color: rgb(36, 144, 244);
+    color: white;
+    border: 1px solid black;
+
+}
+

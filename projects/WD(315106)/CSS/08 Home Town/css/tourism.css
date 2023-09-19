@@ -1,0 +1,50 @@
+.contain{
+    display: flex;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.card {
+    padding: 20px 80px;
+}
+.card h2{
+    font-size: 25px;
+}
+
+.contain img:nth-child(2n-1){
+    padding-right: 50px;
+}
+.contain img:nth-child(2n){
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 1090px){
+    .contain{
+        display: flex;
+        padding-top: 10px;
+        font-size: 12px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .contain{
+        font-size: 6px;
+    }
+    .card {
+        padding: 5px 10px;
+    }
+    .contain img{
+        height: auto;
+        width: 30%;
+    }
+    .card h2{
+        font-size: 15px;
+    }
+    .contain img:nth-child(2n-1){
+        padding-right: 10px;
+    }
+    .contain img:nth-child(2n){
+        padding-left: 10px;
+    }
+}

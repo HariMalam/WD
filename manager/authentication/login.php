@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $enteredUsername = $_POST['username'];
     $enteredPassword = $_POST['password'];
 
-    $query = "SELECT * FROM users WHERE username = :username";
+    $query = "SELECT * FROM  WHERE username = :username";
     $stmt = $conn->prepare($query);
     $stmt->bindParam(':username', $enteredUsername);
     $stmt->execute();

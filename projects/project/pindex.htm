@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Information</title>
+  <link rel="stylesheet" href="pstyles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Patient Information</h1>
+    <form id="patient-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+      
+      <label>Gender:</label>
+      <label for="male"><input type="radio" id="male" name="gender" value="male" required> Male</label>
+      <label for="female"><input type="radio" id="female" name="gender" value="female" required> Female</label>
+      <label for="other"><input type="radio" id="other" name="gender" value="other" required> Other</label>
+      
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required>
+      
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="pscript.js"></script>
+</body>
+</html>
